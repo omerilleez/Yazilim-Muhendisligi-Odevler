@@ -1,0 +1,22 @@
+{
+  "name": "ortak-akil-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ortak Akıl — katılımcı karar alma platformu: REST API + web sitesi + dağıtık defter tanık düğümleri",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "demo": "node --disable-warning=ExperimentalWarning src/server.js --demo",
+    "seed": "node --disable-warning=ExperimentalWarning src/seed.js --reset",
+    "witness": "node --disable-warning=ExperimentalWarning src/witness.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "express": "^5.2.1"
+  }
+}

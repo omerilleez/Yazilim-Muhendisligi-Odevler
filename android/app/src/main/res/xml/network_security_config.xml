@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yerel ağdaki geliştirme sunucusuna (http) bağlanabilmek için düz metin trafiğe izin verilir.
+     Üretimde sunucu HTTPS arkasına alınmalı ve bu ayar kaldırılmalıdır. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

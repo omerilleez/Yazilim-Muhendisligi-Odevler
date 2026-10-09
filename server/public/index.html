@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ortak Akıl</title>
+  <meta name="description" content="Ortak Akıl — herkesin konu açabildiği, çoğunlukla karar verilen ama azınlığın korunduğu katılımcı karar platformu.">
+  <meta name="theme-color" content="#0f6e66">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f6e66'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='16' text-anchor='middle' fill='white'%3EOA%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/"><span class="brand-mark">OA</span><span>Ortak Akıl</span></a>
+      <nav class="nav" id="nav">
+        <a href="#/" data-nav="">Akış</a>
+        <a href="#/konular" data-nav="konular">Konular</a>
+        <a href="#/oylamalar" data-nav="oylamalar">Oylamalar</a>
+        <a href="#/graf" data-nav="graf">İnsan Grafı</a>
+        <a href="#/bilirkisi" data-nav="bilirkisi">Bilirkişi</a>
+        <a href="#/yonetmelik" data-nav="yonetmelik">Yönetmelik &amp; Denetim</a>
+        <a href="#/defter" data-nav="defter">Defter</a>
+        <a href="#/hakkinda" data-nav="hakkinda">Nasıl Çalışır?</a>
+      </nav>
+      <div class="top-actions" id="top-actions"></div>
+      <button class="icon-btn menu-toggle" id="menu-toggle" aria-label="Menü">☰</button>
+    </div>
+  </header>
+  <main id="app"><div class="loading"><span class="spinner"></span> Yükleniyor…</div></main>
+  <footer class="footer">Ortak Akıl · tartışmalar silinmez · her işlem dağıtık deftere işlenir · <a href="#/hakkinda">nasıl çalışır?</a></footer>
+  <div id="toasts"></div>
+  <div id="modal-root"></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

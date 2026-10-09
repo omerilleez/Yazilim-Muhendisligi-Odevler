@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.OrtakAkil" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/oa_background</item>
+    </style>
+</resources>
